@@ -17,6 +17,8 @@ Incluye animaciones, sonidos y un modo **claro/oscuro con degradados**, también
 - ✨ Animación al actualizar el número.  
 
 ---
+## 🔗 Demo  
+[👉 Ver en GitHub Pages](https://ciriodev.github.io/contador-js/)
 
 ## 🖥️ Capturas  
 
@@ -47,7 +49,4 @@ Incluye animaciones, sonidos y un modo **claro/oscuro con degradados**, también
 ## 🚩 Próximas mejoras  
 - Mejorar la UI con botones más modernos (quizás con íconos SVG).  
 - Añadir transiciones entre tema claro/oscuro.  
----
-
-## 🔗 Demo  
-[👉 Ver en GitHub Pages](https://TU-USUARIO.github.io/contador-js/)  
+---  
