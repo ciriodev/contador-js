@@ -1,0 +1,73 @@
+*{
+    font-family: roboto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body.claro {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #222;
+}
+
+/* Tema oscuro */
+body.oscuro {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* degradado oscuro azul-gris */
+    color: #f5f5f5;
+}
+#numero{
+    font-size: 200px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    transition: color 0.3s, transform 0.2s;
+
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 23px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: white;
+    background-color: #007bff;
+}
+
+button:hover{   
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#reset {
+    background: #ff4d4f;
+}
+
+#numero.actualizado {
+    transform: scale(1.2);
+}
+#cambiarTema {
+  position: absolute;     /* Lo coloca en una posición fija dentro del body */
+  top: 20px;              /* Separación desde arriba */
+  right: 20px;            /* Separación desde la derecha */
+  padding: 10px 15px;     /* Espaciado interno */
+  border: none;           /* Quitamos el borde por defecto */
+  border-radius: 8px;     /* Bordes redondeados */
+  cursor: pointer;        /* Cambia el cursor al pasar encima */
+  background: transparent;/* Fondo transparente (sin el azul feo) */
+  color: white;           /* Color del texto (puedes cambiarlo) */
+  font-size: 16px;        /* Tamaño de la letra */
+  font-weight: bold;
+  transition: 0.3s ease;  /* Animación suave en hover */
+}
+
+#cambiarTema:hover {
+  transform: scale(1.05); /* Un poquito más grande al pasar encima */
+  opacity: 0.8;
+}
+
