@@ -19,7 +19,11 @@ Incluye animaciones, sonidos y un modo **claro/oscuro con degradados**, también
 ---
 
 ## 🖥️ Capturas  
+
+### 🌗 Modo oscuro
 ![Preview del contador](./screenshot.png)  
+
+### ☀️ Modo claro
 ![Preview del contador light](./screenshot-light.png)
 
 ---
