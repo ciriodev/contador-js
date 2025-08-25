@@ -19,8 +19,6 @@ Incluye animaciones, sonidos y un modo **claro/oscuro con degradados**, también
 ---
 
 ## 🖥️ Capturas  
-*(Ejemplo, añade una imagen o GIF en tu repo y cámbiale el nombre)*  
-
 ![Preview del contador](./screenshot.png)  
 
 ---
