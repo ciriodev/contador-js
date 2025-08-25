@@ -42,8 +42,6 @@ Incluye animaciones, sonidos y un modo **claro/oscuro con degradados**, también
 ## 🚩 Próximas mejoras  
 - Mejorar la UI con botones más modernos (quizás con íconos SVG).  
 - Añadir transiciones entre tema claro/oscuro.  
-- Publicar en GitHub Pages para compartir fácilmente.  
-
 ---
 
 ## 🔗 Demo  
